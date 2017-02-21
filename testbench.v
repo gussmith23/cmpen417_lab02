@@ -1,7 +1,7 @@
 module testbench ();
 
   reg signed [17:0] A, a, B, b;
-  wire signed [43:0] re1, im1, re2, im2;
+  wire signed [35:0] re1, im1, re2, im2;
   reg clk;
 
   // calculates (A+a*i)*(B+b*i) = re + im*i

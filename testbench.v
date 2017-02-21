@@ -16,13 +16,13 @@ module testbench ();
   initial $monitor("part 2: (%d + %di) * (%d + %di) = %d + %di", A, a, B, b, re2, im2);
 
   initial begin
-    #50;
+    #100;
     A <= 1;
     a <= 2;
     B <= 3;
     b <= 4;
 
-    #50;
+    #100;
     A <= 5;
     a <= 6;
     B <= 7;

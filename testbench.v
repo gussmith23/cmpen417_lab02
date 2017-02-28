@@ -1,7 +1,7 @@
 module testbench
 #(
-  parameter PART1_CYCLES = 6,
-  parameter PART2_CYCLES = 2,
+  parameter PART1_CYCLES = 6,   // NOTE: you are allowed to modify this.
+  parameter PART2_CYCLES = 2,   // NOTE: you are allowed to modify this.  
   parameter PERIOD = 4,
   parameter MAX_RAND = 10
 );
